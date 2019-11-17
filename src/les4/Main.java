@@ -2,11 +2,21 @@ package les4;
 
 public class Main {
     public static void main(String[] args) {
-        int a=5, b=8;
-        int c=a+b;
-        String s;
-        System.out.println("Hello");
+
+        System.out.print("Hello");
         System.out.println(" ,teacher");
+
+        System.out.print("SlipIn: ");
+        System.out.println(less4.slip(true,false)); //slipIn
+
+        System.out.print("Monkey: ");
+        System.out.println(less4.monkeytrouble(true,false)); //monkey
+
+        System.out.print("diff21: ");
+        System.out.println(less4.diff21(35)); //diff21
+
+
+
     }
 
 }
