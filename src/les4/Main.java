@@ -15,6 +15,11 @@ public class Main {
         System.out.print("diff21: ");
         System.out.println(less4.diff21(35)); //diff21
 
+        System.out.print("parrotTrouble: ");
+        System.out.println(less4.parrotTrouble(true, 21)); //parrotTrouble
+
+        System.out.print("makes10: ");
+        System.out.println(less4.makes10(7, 3)); //makes10
 
 
     }
